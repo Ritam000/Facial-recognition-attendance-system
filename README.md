@@ -145,16 +145,6 @@ This opens your webcam. Detected and matched faces are logged automatically to `
 - In-app attendance dashboard instead of raw CSV files
 - Improved accuracy via multiple training photos and liveness detection
 
-## Group Members
-
-- Avik Mandal (Project Lead)
-- Antareep Ghosh
-- Ritam Kundu
-- Preyosi Pal
-- Sayan Gorai
-
-BCA Group Project, IEM Kolkata
-
 ## License
 
 This project is for academic purposes. Add a license of your choice (e.g., MIT) if you intend for others to reuse the code.
