@@ -1,0 +1,26 @@
+# Environment / secrets
+.env
+
+# Uploaded student photos (keep folder structure, ignore actual images)
+media/student_photos/*
+!media/student_photos/.gitkeep
+
+# Database
+db.sqlite3
+
+# Attendance logs (contain real names)
+attendance/*.csv
+
+# Python
+__pycache__/
+*.pyc
+venv/
+env/
+
+# Editor
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

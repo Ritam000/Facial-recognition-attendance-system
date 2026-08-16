@@ -1,0 +1,25 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register Student</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container" style="max-width: 500px; margin: 60px auto; padding: 0; overflow: hidden;">
+        <div class="form-header">
+            <h2><i class="fa-solid fa-user-plus"></i> Register New Student</h2>
+        </div>
+        <div style="padding: 25px 30px;">
+            <form method="POST" enctype="multipart/form-data">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <button type="submit"><i class="fa-solid fa-check"></i> Add Student</button>
+            </form>
+            <br>
+            <a href="{% url 'student_list' %}" class="btn-back"><i class="fa-solid fa-arrow-left"></i> Back to Student List</a>
+        </div>
+    </div>
+</body>
+</html>
